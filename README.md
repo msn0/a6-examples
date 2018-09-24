@@ -1,5 +1,7 @@
 # A6
 
+This repo contains some examples of unit-testing and vrt-testing of Angular6 app.
+
 ## Start
 
 First start [json-server](https://www.npmjs.com/package/json-server)
