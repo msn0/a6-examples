@@ -16,7 +16,7 @@ $ npm start
 
 ## Running tests
 
-Unit tests should be run with with production config:
+Unit tests should be run with production config:
 
 ```sh
 $ npm t -- -c production
