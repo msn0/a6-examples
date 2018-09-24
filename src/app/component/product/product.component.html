@@ -1,0 +1,7 @@
+<ul>
+  <li *ngFor="let product of products" attr.data-product-id="{{ product.id }}">
+    <span class="name">{{ product.name }}</span>,
+    <span class="date">{{ product.lastUpdate | date }}</span>,
+    <strong class="price">{{ product.price | price }}</strong>
+  </li>
+</ul>

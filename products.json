@@ -1,0 +1,24 @@
+{
+  "api": {
+    "products": [
+      {
+        "id": 1,
+        "name": "Lorem",
+        "price": 1842.987,
+        "lastUpdate": 123456789
+      },
+      {
+        "id": 2,
+        "name": "Ipsum dolor",
+        "price": 31242,
+        "lastUpdate": 2123456789
+      },
+      {
+        "id": 3,
+        "name": "Sit amet",
+        "price": 11842.7721,
+        "lastUpdate": 3123456789
+      }
+    ]
+  }
+}

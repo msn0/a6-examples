@@ -1,27 +1,39 @@
 # A6
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.2.3.
+## Start
 
-## Development server
+First start [json-server](https://www.npmjs.com/package/json-server)
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+```sh
+$ npx json-server --watch products.json
+```
 
-## Code scaffolding
+then
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+```sh
+$ npm start
+```
 
-## Build
+## Running tests
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+Unit tests should be run with with production config:
 
-## Running unit tests
+```sh
+$ npm t -- -c production
+```
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+NOTE: If you want to run visual regression test plesse install [git-lfs](https://git-lfs.github.com/).
 
-## Running end-to-end tests
+VRT tests should be run while json-server is running and with default config:
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+```sh
+$ npx jest
+```
 
-## Further help
+Update screenshots if they match requirements:
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+```sh
+$ npx jest -u
+```
+
+and open [localhost:3000](http://localhost:3000).
