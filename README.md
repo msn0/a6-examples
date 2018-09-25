@@ -4,7 +4,7 @@ This repo contains some examples of unit-testing and vrt-testing of Angular6 app
 
 ## Start
 
-First start [json-server](https://www.npmjs.com/package/json-server)
+First start [json-server](https://www.npmjs.com/package/json-server):
 
 ```sh
 $ npx json-server --watch products.json
@@ -18,15 +18,15 @@ $ npm start
 
 ## Running tests
 
-Unit tests should be run with production config:
+Run unit tests:
 
 ```sh
-$ npm t -- -c production
+$ npm t
 ```
 
 NOTE: `*.png` files are stored in LFS so you should install [git-lfs](https://git-lfs.github.com/) if you want to run visual regression tests and push screenshots.
 
-VRT tests should be run while json-server is running and with default config:
+Run VRT tests (json-server should be up and tunning):
 
 ```sh
 $ npx jest
