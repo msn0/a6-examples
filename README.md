@@ -24,7 +24,7 @@ Unit tests should be run with production config:
 $ npm t -- -c production
 ```
 
-NOTE: If you want to run visual regression test plesse install [git-lfs](https://git-lfs.github.com/).
+NOTE: `*.png` files are stored in LFS so you should install [git-lfs](https://git-lfs.github.com/) if you want to run visual regression tests and push screenshots.
 
 VRT tests should be run while json-server is running and with default config:
 
