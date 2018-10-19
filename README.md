@@ -26,7 +26,7 @@ $ npm t
 
 NOTE: `*.png` files are stored in LFS so you should install [git-lfs](https://git-lfs.github.com/) if you want to run visual regression tests and push screenshots.
 
-Run VRT tests (json-server should be up and tunning):
+Run VRT tests (json-server should be up and running):
 
 ```sh
 $ npx jest
