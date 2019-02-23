@@ -1,4 +1,4 @@
-# A6
+# A6 [![Build Status](https://travis-ci.org/msn0/a6-examples.svg?branch=master)](http://travis-ci.org/msn0/a6-examples)
 
 This repo contains some examples of unit-testing and vrt-testing of Angular6 app.
 
