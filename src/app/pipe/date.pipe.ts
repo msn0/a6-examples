@@ -12,7 +12,8 @@ export class DatePipe implements PipeTransform {
       day: 'numeric',
       hour: 'numeric',
       minute: 'numeric',
-      second: 'numeric'
+      second: 'numeric',
+      timeZone: 'UTC'
     };
     return new Intl.DateTimeFormat('PL', options).format(value);
   }

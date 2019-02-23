@@ -45,8 +45,8 @@ describe('App Component', () => {
       .queryAll(By.css('li .date'))
       .map(element => element.nativeElement.innerHTML.trim());
     expect(dates).toEqual([
-      'środa, 11 lipca 1973, 08:05:33',
-      'poniedziałek, 17 stycznia 1977, 08:17:24'
+      'środa, 11 lipca 1973, 07:05:33',
+      'poniedziałek, 17 stycznia 1977, 07:17:24'
     ]);
   });
 

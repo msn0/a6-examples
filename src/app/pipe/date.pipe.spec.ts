@@ -11,6 +11,6 @@ describe('Date Pipe', () => {
   it('should format date', () => {
     const pipe = TestBed.get(DatePipe);
 
-    expect(pipe.transform(4123456789000)).toEqual('środa, 1 września 2100, 06:39:49');
+    expect(pipe.transform(4123456789000)).toEqual('środa, 1 września 2100, 04:39:49');
   });
 });
